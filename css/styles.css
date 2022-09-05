@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.bg-purple {
+  background-color: #603593;
+}
+
+.bg-brown {
+  background-color: #f3d2a1;
+}
+
+.bg-eco {
+  background-color: #00A37C;
+}
+
+.padding-content {
+  padding: 3rem;
+}
+
+.img-clear {
+  padding: 0;
+  margin: 0;
+
+}
+
+.btn-float {
+  overflow: hidden;
+  background-color: #25d366;
+  font-size: 0.9rem;
+  text-align: center;
+  width: 90px;
+  padding: 0.4rem;
+  color: white;
+  position: fixed;
+  right: -10px;
+  top: 10;
+  z-index: 5;
+  -webkit-border-radius: 30px;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius: 30px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 10px;
+  border-radius: 30px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.btn-float .col a {
+  font-size: 2.5rem;
+}
+.leaf {
+  float: right;
+  position: relative;
+  right: 0;
+  top: -150px;
+}
+
+.text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #383838;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #383838;
+}
+
+.logo {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 2rem;
+}
+
+
+.nav-text {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 18px;
+  padding: 0.85rem;
+}
+
+.search-form {
+  position: relative;
+  width: 10rem;
+}
+
+.grid-container {
+  position: relative;
+  top: -5.75rem;
+  z-index: 2;
+  color: white;
+}
+
+.plastic {
+  width: 100%;
+  overflow: hidden;
+  background-image: url('../src/plastico.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.footer-link {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.footer-text-info {
+  color: #ccc;
+  font-size: 0.925rem;
+}
+
+.p-footer {
+  padding: 1rem;
+
+}
+
+.text-gray {
+  font-family: 'Roboto', sans-serif;
+  color: #a4a4a4;
+}
+
+.footer-divider {
+  border: none;
+}
+
+.dropdown-menu {
+  width: 16.5rem;
+}
+
+.btn-outline-light:hover,
+.btn-outline-light:focus {
+  background-color: transparent;
+  color: white;
+}
+
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -10px;
+
+}
+
+.social-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  width: 48px;
+  height: 48px;
+  text-decoration: none;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.75rem;
+  color: white;
+  margin-left: 0.75rem;
+}
+
+.facebook {
+  background-color: #3d5b96;
+}
+
+.instagram {
+  background-color: #b01c65;
+}
+
+.twitter {
+  background-color: #59aeec;
+}
+
+.youtube {
+  background-color: #d2272f;
+}
+
+@media screen and (max-width: 992px) {
+
+  .btn-float {
+    width: 80px;
+    font-size: 0.8rem;
+    border-radius: 25px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -webkit-border-radius: 25px;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius: 25px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+  }
+
+  .btn-float .col a{
+    font-size: 2rem;
+  }
+
+  #navbarNav {
+    min-height: 100vh;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+
+  .search-form {
+    position: absolute;
+    right: 3.5rem;
+    width: 12.5rem;
+  }
+
+  .logo {
+    margin: 0 1.5rem;
+    width: 80px;
+    height: 80px;
+  }
+
+  .nav-text {
+    margin: 0 0.25rem;
+  }
+
+  .padding-content {
+    padding: 8rem 6rem;
+  }
+
+  .text {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.75rem;
+  }
+
+  .img-top-125 {
+    position: relative;
+    top: 125px;
+  }
+
+  .plastic {
+    width: 50%;
+  }
+
+  .footer-divider {
+    border-right: 1px solid white;
+  }
+
+}
